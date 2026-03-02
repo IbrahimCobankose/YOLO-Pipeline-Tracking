@@ -1,0 +1,10 @@
+# Pipe Tracking System Dependencies
+
+# For YOLO model operations (training, inference, and segmentation)
+ultralytics
+
+# For image and video processing, rendering polygons, and UI text
+opencv-python
+
+# For numerical operations, array manipulations, and coordinate processing
+numpy
