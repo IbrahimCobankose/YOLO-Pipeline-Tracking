@@ -31,7 +31,7 @@ pip install -r requirements.txt
 To implement and run this tracking system, follow these sequential steps:
 
 ### 1. Data Preparation and Labeling
-[cite_start]Label the pipes and pipe nodes in your video using Instance Segmentation mode[cite: 2].
+Label the pipes and pipe nodes in your video using Instance Segmentation mode.
 
 ### 2. Model Training
 [cite_start]Train the model with your dataset using the `train.py` code[cite: 2].
