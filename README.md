@@ -1,7 +1,7 @@
 # YOLO Pipeline Tracking
 
 ## Overview
-This project implements a computer vision-based tracking system designed to detect and follow pipelines and pipeline nodes. Utilizing YOLO for instance segmentation, the system processes video feeds to identify structural elements and calculates real-time directional feedback based on a customizable region of interest (ROI).
+This project implements a computer vision-based tracking system designed to detect and follow pipelines and pipeline nodes. Utilizing YOLO for instance segmentation, the system processes video feeds to identify structural elements and calculates directional feedback based on a customizable region of interest (ROI).
 
 ## Example Results
 The system overlays segmentation masks, highlights the defined tracking zone, and prints navigational signals on the processed frames. Below are examples of the raw input frames and their corresponding outputs.
