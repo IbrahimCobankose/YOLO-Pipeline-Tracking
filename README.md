@@ -34,19 +34,19 @@ To implement and run this tracking system, follow these sequential steps:
 Label the pipes and pipe nodes in your video using Instance Segmentation mode.
 
 ### 2. Model Training
-[cite_start]Train the model with your dataset using the `train.py` code[cite: 2].
+Train the model with your dataset using the `train.py` code.
 ```bash
 python train.py
 ```
 
 ### 3. Defining the Region of Interest (Zone)
-[cite_start]Determine a zone for your vehicle's viewing range in `polygon_zone.py`[cite: 3]. [cite_start]Use the resulting coordinate outputs for the `raw_pts` variable in `main.py`[cite: 3].
+Determine a zone for your vehicle's viewing range in `polygon_zone.py`[cite: 3]. [cite_start]Use the resulting coordinate outputs for the `raw_pts` variable in `main.py`.
 ```bash
 python polygon_zone.py
 ```
 
 ### 4. Inference and Tracking
-[cite_start]Then run `main.py` to get the results[cite: 4].
+Then run `main.py` to get the results.
 ```bash
 python main.py
 ```
