@@ -8,3 +8,9 @@ opencv-python
 
 # For numerical operations, array manipulations, and coordinate processing
 numpy
+
+# For MAVLink communication with ArduSub/ArduPilot
+pymavlink
+
+# For object tracking and advanced annotations (ByteTrack)
+supervision
